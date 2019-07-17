@@ -5,8 +5,8 @@ import (
 	"html/template"
 	"path/filepath"
 
-	"github.com/qor/assetfs"
-	"github.com/qor/qor/utils"
+	"github.com/kisrobot/assetfs"
+	"github.com/kisrobot/qor/utils"
 )
 
 // SetAssetFS set asset fs for render

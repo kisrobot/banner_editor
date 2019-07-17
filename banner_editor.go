@@ -11,11 +11,11 @@ import (
 
 	mobiledetect "github.com/Shaked/gomobiledetect"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/admin"
-	"github.com/qor/assetfs"
-	"github.com/qor/qor"
-	"github.com/qor/qor/resource"
-	"github.com/qor/serializable_meta"
+	"github.com/kisrobot/admin"
+	"github.com/kisrobot/assetfs"
+	"github.com/kisrobot/qor"
+	"github.com/kisrobot/qor/resource"
+	"github.com/kisrobot/serializable_meta"
 )
 
 var (
@@ -84,7 +84,7 @@ type configurePlatform struct {
 }
 
 func init() {
-	admin.RegisterViewPath("github.com/qor/banner_editor/views")
+	admin.RegisterViewPath("github.com/kisrobot/banner_editor/views")
 }
 
 // RegisterElement register a element
